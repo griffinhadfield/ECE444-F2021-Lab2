@@ -12,7 +12,14 @@ moment = Moment(app)
 app.config['SECRET_KEY'] = 'change me'
 class NameForm(FlaskForm):
     name = StringField('What is your name?', validators=[DataRequired()])
+    email = StringField('What is your UofT email address?', validators=[DataRequired()])
     submit = SubmitField('Submit') 
+    def validate_email(form, field):
+        if "@" not in field.data:
+            raise ValidationError('Please include an @ in the email address.')
+        if "utoronto" not in field.data:
+            raise ValidationError('Must be a UofT email address.')
+        
 
 @app.errorhandler(404)
 def page_not_found(e):
@@ -31,8 +38,9 @@ def index():
         if old_name is not None and old_name != form.name.data:
             flash('Looks like you have changed your name!')
         session['name'] = form.name.data
+        session['email'] = form.email.data
         return redirect(url_for('index'))
-    return render_template('index.html', form=form, name=session.get('name'))
+    return render_template('index.html', form=form, name=session.get('name'), email=session.get('email'))
 
 @app.route('/user/<name>')
 def user(name):
