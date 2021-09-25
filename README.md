@@ -12,6 +12,10 @@ Screenshot of command line.
 
 <img width="350" alt="Screen Shot 2021-09-25 at 1 29 59 PM" src="https://user-images.githubusercontent.com/38739044/134784175-d4424252-197c-430b-8c6a-6525f2dff7a7.png">
 Screenshot of webpage for example 2-1 and 2-2.
+\n
+Associated Commits:
+- Example 2-1: https://github.com/griffinhadfield/ECE444-F2021-Lab2/commit/b968c13071d126b708f56959480e8bff115f4168
+- Example 2-2: https://github.com/griffinhadfield/ECE444-F2021-Lab2/commit/3088769d833611d9c9b6d23664e54f130ea0b184
 
 ## Activity 3
 
@@ -36,7 +40,7 @@ Screenshot of webpage showing error message from entering first name as email.
 
 <img width="561" alt="Screen Shot 2021-09-25 at 3 36 43 PM" src="https://user-images.githubusercontent.com/38739044/134784238-5cac94ac-fb21-4d13-a5b9-6a38cd08ca45.png">
 Screenshot of webpage showing error message from entering non-UofT email.
-
+\n
 Associated Commits: 
 - Step 1: https://github.com/griffinhadfield/ECE444-F2021-Lab2/commit/108a1839336228604a33857100732f1e9be766a4
 - Step 2: https://github.com/griffinhadfield/ECE444-F2021-Lab2/commit/88723dfbe5725c90125be61b5b6583da92403596
