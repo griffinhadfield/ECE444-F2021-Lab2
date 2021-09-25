@@ -18,6 +18,8 @@ Screenshot of webpage for example 2-1 and 2-2.
 <img width="732" alt="Screen Shot 2021-09-25 at 2 06 39 PM" src="https://user-images.githubusercontent.com/38739044/134784190-78d3ab32-cd21-410f-b9ba-75dbe47040d7.png">
 Screenshot of webpage for chapter 3 examples.
 
+Associated Commit: https://github.com/griffinhadfield/ECE444-F2021-Lab2/commit/70e7b7b7113f2d7b5243817257092f443cb5abf8
+
 ## Activity 4
 
 <img width="592" alt="Screen Shot 2021-09-25 at 3 29 30 PM" src="https://user-images.githubusercontent.com/38739044/134784205-95a2090a-9653-470f-9ffa-564fa91ab925.png">
@@ -34,6 +36,10 @@ Screenshot of webpage showing error message from entering first name as email.
 
 <img width="561" alt="Screen Shot 2021-09-25 at 3 36 43 PM" src="https://user-images.githubusercontent.com/38739044/134784238-5cac94ac-fb21-4d13-a5b9-6a38cd08ca45.png">
 Screenshot of webpage showing error message from entering non-UofT email.
+
+Associated Commits: 
+- Step 1: https://github.com/griffinhadfield/ECE444-F2021-Lab2/commit/108a1839336228604a33857100732f1e9be766a4
+- Step 2: https://github.com/griffinhadfield/ECE444-F2021-Lab2/commit/88723dfbe5725c90125be61b5b6583da92403596
 
 
 
